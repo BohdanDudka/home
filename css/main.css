@@ -400,7 +400,8 @@ body {
 }
 
 .images__img {
-    
+    max-width: 100%;
+    height: auto;
 } 
 
 .container__GetInTouch {
@@ -771,4 +772,234 @@ body {
     content: "";
     max-width: 100%;
     margin: 30px auto;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 479px)
+  and (orientation: portrait) {
+    body {
+        padding: 1%;
+    }
+    .header {
+        float: none;
+        text-align: center;
+    }
+    .header__menu {
+        float: none;
+        margin-top: 12px;
+    }
+    .info__heading {
+        margin-top: 36px;
+    }
+    .menu {
+        text-align: center;
+    }
+    .menu__item{
+        margin: 5px 0 0 0;
+        max-width: 100%;
+        display: block;
+    }
+    .menu__link {
+        font-size: 18px;
+    }
+    .pageItem {
+        text-align: center;
+    }
+    .blocks__item {
+        margin-right: 0;
+    }
+    .aboutUs__textFirst {
+        margin: 0 0 20px 0;
+    }
+    .item-image {
+        margin: 0;
+    }
+    .list__item {
+        margin: 0;
+    }
+    .images__link {
+        margin: 0 0 26px 0;
+    }
+    .BlogPosts__withImg {
+        margin: 0;
+    }
+    .BlogPosts__withText {
+        max-width: 100%;
+        margin: 15px 0 30px;
+    }
+    .item__text {
+        max-width: 100%;
+    }
+    .item__details {
+        text-align: center;
+        max-width: 100%;
+    }
+    .recentList__item {
+        margin: 0 0 10px 0;
+        display: block;
+    }
+    .ContactUs__first {
+        float: none;
+        text-align: center;
+        margin: 0 auto 40px;
+    }
+    .ContactUs__second {
+        float: none;
+    }
+    .ContactUs__fill {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .textarea {
+        width: 100%;
+    }
+    
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 479px)
+  and (orientation: landscape) {
+    body {
+        padding: 1%;
+    }
+    .header {
+        float: none;
+        text-align: center;
+    }
+    .header__menu {
+        float: none;
+    }
+    .menu {
+        text-align: center;
+    }
+    .menu__item {
+        margin-right: 15px;
+    }
+    .info__heading {
+        margin: 174px 0 0 0;
+    }
+    .pageItem {
+        text-align: center;
+    }
+    .blocks__item {
+        margin-right: 0;
+    }
+    .item-image {
+        margin: 0;
+    }
+    .list__item:last-child {
+        margin-right: 0;
+    }
+    .images__link {
+        margin-right: 0;
+    }
+    .BlogPosts__withImg {
+        margin: 0;
+        float: none;
+    }
+    .BlogPosts__withText {
+        max-width: 100%;
+        margin: 15px 0 30px;
+    }
+    .item__text {
+        max-width: 100%;
+    }
+    .item__details {
+        text-align: center;
+        max-width: 100%;
+    }
+    .recentList__item {
+        margin: 0 0 10px 0;
+        display: block;
+    }
+    .ContactUs__first {
+        float: none;
+        text-align: center;
+        margin: 0 auto 40px;
+    }
+    .ContactUs__second {
+        float: none;
+    }
+    .ContactUs__fill {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .textarea {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 480px) and (max-device-width: 767px) {
+    body {
+        padding: 1%;
+    }
+    .header {
+        float: none;
+        text-align: center;
+    }
+    .header__menu {
+        float: none;
+    }
+    .menu {
+        text-align: center;
+    }
+    .menu__item {
+        margin-right: 15px;
+    }
+    .info__heading {
+        margin: 174px 0 0 0;
+    }
+    .pageItem {
+        text-align: center;
+    }
+    .blocks__item {
+        margin-right: 0;
+    }
+    .item-image {
+        margin: 0;
+    }
+   .aboutUs__textFirst {
+        margin: 0 auto 20px;
+        float: none;
+    }
+    .aboutUs__textSecond {
+        margin: 0 auto 20px;
+        float: none;
+    }
+    .images__link {
+        margin-right: 0;
+    }
+    .BlogPosts__withImg {
+        margin: 0;
+    }
+    .BlogPosts__withText {
+        max-width: 100%;
+        margin: 15px 0 30px;
+    }
+    .item__text {
+        max-width: 100%;
+    }
+    .item__details {
+        max-width: 100%;
+    }
+    .recentList__item {
+        margin: 0 0 10px 0;
+        display: block;
+    }
+    .ContactUs__first {
+        float: none;
+        text-align: center;
+        margin: 0 auto 40px;
+    }
+    .ContactUs__second {
+        float: none;
+    }
+    .ContactUs__fill {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .textarea {
+        width: 100%;
+    }
+    
 }
