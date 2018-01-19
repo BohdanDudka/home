@@ -696,6 +696,9 @@ body {
 .ContactUs__fill:nth-child(2n) {
     margin: 0 0px 20px 0;
 }
+.b-textfield_error{
+    box-shadow:		0 0 2px red;
+}
 
  .textarea {
     width: 730px;

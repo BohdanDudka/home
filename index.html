@@ -252,13 +252,13 @@
                         </div>
                     </div>
                     <div class="ContactUs__second">
-                        <form class="ContactUs__form">
+                        <form class="ContactUs__form" id="form">
                             <input class="ContactUs__fill" type="text" name="your name" placeholder="Enter your name">
                             <input class="ContactUs__fill" type="text" name="your subject" placeholder="your subject">
                             <input class="ContactUs__fill" type="text" name="your e-mail" placeholder="your e-mail">
                             <input class="ContactUs__fill" type="text" name="company name" placeholder="company name">
                             <textarea class="textarea review" rows="5" cols="45" name="text" placeholder="Write your Message"></textarea>
-                            <input class="subscribe__btn" name="" value="Send Message" type="submit">
+                            <input class="subscribe__btn" value="Send Message" type="submit">
                             <p class="ContactUs__text">
                                 <span class="span__star">*</span>
                                 We’ll contact you as as possible. We don’t reply on Monday.
@@ -290,8 +290,12 @@
     <script src="scripts/hover.js"></script>
 	<script src="scripts/scroll.js"></script>
     <script src="scripts/effects.js"></script>
+    <script src="scripts/check-form.js"></script>
     <script>
     	var ScrollBtn = new Scroll("#scrollBtn");
+    </script>
+    <script>
+        var FormValidator = new Form("#form");
     </script>
 </body>
 </html>
